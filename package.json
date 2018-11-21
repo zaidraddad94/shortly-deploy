@@ -8,11 +8,12 @@
   "engines": {
     "node": ">=4.0.0"
   },
-  // "scripts": {
-  //   "start": "grunt build && grunt upload",
-  //   "test": "grunt test",
-  //   "lint": "eslint ./"
-  // },
+  "scripts": {
+   // "start": "grunt build && grunt upload",
+   // "test": "grunt test",
+    "start": "node server.js",
+    "lint": "eslint ./"
+  },
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
     "bluebird": "^3.3.4",
